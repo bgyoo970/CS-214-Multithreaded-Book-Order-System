@@ -1,6 +1,11 @@
 # CS-214-Multithreaded-Book-Order-System
 ###### Fall 2014 with Brian Russell
 
+Input instruction: 
+Argument 1 must be the name of the database textfile (e.g. database.txt)
+Argument 2 must be the name of the book order textfile (e.g. bookorder.txt)
+Argument 3 must be the name of the category textfile (e.g. category.txt)
+
 The program first creates the database using an array as its data structure that holds a maximum
 of 1024 customers. It will store each customer based on the customer ID and hash the ID into the
 appropriate index. Then a single large queue is used to store the book orders. A thread ID array will be
